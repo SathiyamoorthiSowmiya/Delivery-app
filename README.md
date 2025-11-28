@@ -74,9 +74,10 @@ Use the following demo credentials to explore the application:
 
 ✅ Notifications (email / SMS) on order updates
 
+---
 👨‍💻 Developer
 
 - Sowmiya S
 - MERN Stack Developer
 - 📧 Email: sowmiyamoorthi01@gmail.com
-- 🔗 LinkedIn: https://www.linkedin.com/in/sowmiya-sathiyamoorthi/
+

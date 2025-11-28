@@ -1,152 +1,158 @@
-🍔 Food Delivery Management App (MERN Stack)
+# 🍔 Delivery Management System 
 
-A full-stack Food Delivery Application built using the MERN Stack with dedicated User and Admin dashboards.
-Users can browse dishes and place orders, while Admins manage and track all deliveries in real time.
+This Delivery Management system is designed to manage food ordering and delivery operations efficiently. The system has two main roles: **Admin** and **User**.  
 
-🚀 Live Demo
+- 👩‍💼 **Admin Role**: Responsible for reviewing orders, approving or rejecting them, and updating delivery status.  
+- 👨‍💻 **User Role**: Enables users to browse food items, place orders, track order status, and manage their order history.
 
-🔗 Frontend:
+---
 
-https://your-frontend-link.vercel.app
+## 🚀 Live Demo
 
+- **Frontend deployed with Netlify / Vercel**:  
+  https://your-frontend-link.com  
 
-🔗 Backend API:
+- **Backend deployed with Render.com**:  
+  https://your-backend-link.com  
 
-https://your-backend-link.onrender.com
+---
 
+## ✨ Features
 
-🔑 Demo Login Credentials
+### 👩‍💼 Admin Side  
 
-👤 User Login
-    Email: user@test.com  
-    Password: 123456
+- 📋 **View All Orders**: Admins can view all user orders with full details.  
+- ✅❌ **Approve or Reject Orders**: Admins can approve or reject user orders.  
+- 🚚 **Update Delivery Status**: Change status from pending → accepted → on-the-way → delivered.  
+- 🔍 **Search & Filter Orders**: Search by user name/email and filter by status.  
+- 📊 **Admin Dashboard**: Shows total orders, pending orders, and delivered orders.  
+- 🌙 **Dark Mode**: Separate dark theme for admin panel.  
 
-🛠️ Admin Login
-     Email: admin@test.com  
-     Password: 123456
+---
 
+### 👨‍💻 User Side
 
-✨ Key Features:
+- 🍽️ **Browse Menu**: Users can view food items with images, description, and price.  
+- 🟢🔴 **Veg / Non-Veg Filter**: Filter dishes based on category.  
+- ➕➖ **Add to Cart**: Increase or decrease quantity using + / – buttons.  
+- 🏠 **Add Delivery Address**: Enter delivery address during checkout.  
+- 🧮 **Auto Price Calculation**: Subtotal + GST + Delivery charge.  
+- 📦 **Place Order**: Submit order for admin review.  
+- 📜 **Order History**: Users can view their previous orders and their status.  
+- 🌓 **Light / Dark Mode Dashboard**: User dashboard supports theme toggle.  
 
-👤 User Panel
+---
 
-✅ JWT Login & Register
+## 📥 Installation
 
-✅ Veg / Non-Veg filter
+### 📦 Backend (Node.js)  
+1. Navigate to the backend directory:  
+   ```bash
+   cd backend
 
-✅ Add to cart system
+   Install dependencies:
 
-✅ Address-based order placement
-
-✅ Order history with status
-
-✅ Dark / Light mode
-
-✅ Beautiful animated UI
-
-🛠️ Admin Panel
-
-✅ Secure Admin Login
-
-✅ View all customer orders
-
-✅ Approve / Reject orders
-
-✅ Update delivery status:
-
-Pending → Accepted → On The Way → Delivered
-
-✅ Admin dashboard with stats
-
-✅ Dark mode admin panel
-
-🧰 Tech Stack
-Frontend
-
-React.js (Vite)
-
-Axios
-
-React Router DOM
-
-CSS / Inline Styling
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB + Mongoose
-
-JWT Authentication
-
-Tools
-
-Git & GitHub
-
-MongoDB Compass
-
-Postman
-
-⚙️ Installation & Run Locally
-✅ 1. Clone Repo
-git clone https://github.com/SathiyamoorthiSowmiya/delivery-app.git
-cd delivery-app
-
-✅ 2. Backend Setup
-cd backend
 npm install
 
-Run backend:
+
+Set up the database:
+
+Create a .env file inside the backend folder.
+
+Add the following:
+
+MONGO_URL=your_mongodb_url
+JWT_SECRET=your_secret_key
+PORT=4000
+
+
+Start the server:
 
 npm start
 
-✅ 3. Frontend Setup
+🖥️ Frontend (React)
+
+Navigate to the frontend directory:
+
 cd frontend
+
+
+Install dependencies:
+
 npm install
+
+
+Configure environment variables (optional):
+
+Create a .env file in the frontend folder and add backend API URL if required.
+
+Start the development server:
+
 npm run dev
 
-🌐 API Endpoints
-Auth APIs
+🚀 Getting Started
 
-POST /auth/register
+📧 Register a User Account:
 
-POST /auth/login
+Register a user account to access the food menu, place orders, and track delivery status.
 
-Order APIs
+👩‍💼 Register an Admin Account:
 
-POST /orders/new
+Register an admin account to access the admin portal and manage all orders.
 
-GET /orders
+⚡ Usage
+Admin Interface
 
-PUT /orders/:id
+🔐 Login: Admins log in using their credentials.
 
-🔐 Security
+📊 Dashboard: Access the admin dashboard to view order statistics.
 
-✅ JWT Authentication
+📋 Order Management:
 
-✅ Role-based Authorization
+View Orders: View all user orders.
 
-✅ Encrypted passwords
+✅ Approve Order: Accept user orders.
 
-✅ Protected Admin routes
+❌ Reject Order: Reject user orders.
 
-🚀 Future Enhancements
+🚚 Delivery Management:
 
-✅ Online payment gateway (Razorpay / Stripe)
+Mark orders as on-the-way.
 
-✅ Admin product management panel
+Mark orders as delivered.
 
-✅ Live delivery tracking (Maps)
+🔍 Search & Filter:
 
-✅ Mobile app using React Native
+Search orders by user name or email.
 
-✅ Customer reviews & ratings
+Filter orders by status.
 
-👨‍💻 Developer
+👨‍💻 User Interface
 
-Sowmiya S
-MERN Stack Developer
-📧 Email: sowmiyamoorthi01@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/sowmiya-sathiyamoorthi/
+🔐 Login: Users log in using their credentials.
+
+📊 Dashboard: Access the user dashboard with theme toggle.
+
+🍽️ Menu Page: Browse food items with images and prices.
+
+➕➖ Cart System: Add or remove items easily.
+
+🏠 Checkout: Enter delivery address and place order.
+
+📜 My Orders: View order history and current order status.
+
+📧 Demo Credentials
+
+Use the following demo credentials to explore the application:
+
+👩‍💼 Admin side
+
+📩 Email: admin@test.com
+
+🔑 Password: 123456
+
+👨‍💻 User side
+
+📩 Email: user@test.com
+
+🔑 Password: 123456

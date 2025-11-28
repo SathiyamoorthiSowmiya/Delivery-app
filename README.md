@@ -43,52 +43,6 @@ This Delivery Management system is designed to manage food ordering and delivery
 
 ---
 
-## 📥 Installation
-
-### 📦 Backend (Node.js)  
-1. Navigate to the backend directory:  
-   ```bash
-   cd backend
-
-   Install dependencies:
-
-npm install
-
-
-Set up the database:
-
-Create a .env file inside the backend folder.
-
-Add the following:
-
-MONGO_URL=your_mongodb_url
-JWT_SECRET=your_secret_key
-PORT=4000
-
-
-Start the server:
-
-npm start
-
-🖥️ Frontend (React)
-
-Navigate to the frontend directory:
-
-cd frontend
-
-
-Install dependencies:
-
-npm install
-
-
-Configure environment variables (optional):
-
-Create a .env file in the frontend folder and add backend API URL if required.
-
-Start the development server:
-
-npm run dev
 
 🚀 Getting Started
 

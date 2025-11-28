@@ -44,57 +44,6 @@ This Delivery Management system is designed to manage food ordering and delivery
 ---
 
 
-🚀 Getting Started
-
-📧 Register a User Account:
-
-Register a user account to access the food menu, place orders, and track delivery status.
-
-👩‍💼 Register an Admin Account:
-
-Register an admin account to access the admin portal and manage all orders.
-
-⚡ Usage
-Admin Interface
-
-🔐 Login: Admins log in using their credentials.
-
-📊 Dashboard: Access the admin dashboard to view order statistics.
-
-📋 Order Management:
-
-View Orders: View all user orders.
-
-✅ Approve Order: Accept user orders.
-
-❌ Reject Order: Reject user orders.
-
-🚚 Delivery Management:
-
-Mark orders as on-the-way.
-
-Mark orders as delivered.
-
-🔍 Search & Filter:
-
-Search orders by user name or email.
-
-Filter orders by status.
-
-👨‍💻 User Interface
-
-🔐 Login: Users log in using their credentials.
-
-📊 Dashboard: Access the user dashboard with theme toggle.
-
-🍽️ Menu Page: Browse food items with images and prices.
-
-➕➖ Cart System: Add or remove items easily.
-
-🏠 Checkout: Enter delivery address and place order.
-
-📜 My Orders: View order history and current order status.
-
 📧 Demo Credentials
 
 Use the following demo credentials to explore the application:

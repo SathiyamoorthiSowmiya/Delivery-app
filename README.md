@@ -59,3 +59,22 @@ Use the following demo credentials to explore the application:
 📩 Email: user@test.com
 
 🔑 Password: 123456
+
+🎯 Future Enhancements
+
+✅ Dynamic products from database (Admin can add/edit dishes)
+
+✅ Coupon / discount support
+
+✅ Online payment gateway integration
+
+✅ Real-time tracking (map integration)
+
+✅ Notifications (email / SMS) on order updates
+
+👨‍💻 Developer
+
+Sowmiya S
+MERN Stack Developer
+📧 Email: sowmiyamoorthi01@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/sowmiya-sathiyamoorthi/

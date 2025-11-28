@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Build
+dist/
+build/
+
+# Env files (VERY IMPORTANT)
+.env
+backend/.env
+frontend/.env
+
+# IDE / System
+.vscode/
+.DS_Store
+Thumbs.db

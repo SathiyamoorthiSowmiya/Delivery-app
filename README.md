@@ -16,21 +16,18 @@ https://your-backend-link.onrender.com
 
 
 🔑 Demo Login Credentials
+
 👤 User Login
-Email: user@test.com  
-Password: 123456
+    Email: user@test.com  
+    Password: 123456
 
 🛠️ Admin Login
-Email: admin@test.com  
-Password: 123456
-
-📸 Screenshots
-
-### ✅ User Dashboard
-![User Dashboard](./images/readme-images/User Dashboard.png)
+     Email: admin@test.com  
+     Password: 123456
 
 
-✨ Key Features
+✨ Key Features:
+
 👤 User Panel
 
 ✅ JWT Login & Register

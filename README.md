@@ -60,6 +60,8 @@ Use the following demo credentials to explore the application:
 
 🔑 Password: 123456
 
+---
+
 🎯 Future Enhancements
 
 ✅ Dynamic products from database (Admin can add/edit dishes)
@@ -74,7 +76,7 @@ Use the following demo credentials to explore the application:
 
 👨‍💻 Developer
 
-Sowmiya S
-MERN Stack Developer
-📧 Email: sowmiyamoorthi01@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/sowmiya-sathiyamoorthi/
+- Sowmiya S
+- MERN Stack Developer
+- 📧 Email: sowmiyamoorthi01@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/sowmiya-sathiyamoorthi/

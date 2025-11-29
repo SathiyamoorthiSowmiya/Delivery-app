@@ -225,7 +225,7 @@ const AdminOrders = () => {
                           fontWeight: 600,
                           background:
                             "linear-gradient(to right,#22c55e,#16a34a)",
-                          color: "#fff",
+                          color: "#ec9494ff",
                           boxShadow:
                             "0 6px 14px rgba(34,197,94,0.45)",
                         }}
@@ -327,7 +327,7 @@ const AdminOrders = () => {
                 borderRadius: 18,
                 padding: 22,
                 boxShadow: "0 20px 50px rgba(235, 236, 228, 0.6)",
-                color: "#e5e9ecff",
+                color: "#1d86d6ff",
                 border: "1px solid #334155",
               }}
             >

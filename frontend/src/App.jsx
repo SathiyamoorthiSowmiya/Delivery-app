@@ -8,8 +8,6 @@ import AdminOrders from "./pages/AdminOrders.jsx";
 import PrivateRoute from "./components/PrivateRoute.jsx";
 import MyOrders from "./pages/MyOrders.jsx";
 
-
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -17,6 +15,7 @@ export default function App() {
         {/* User side */}
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
+
         <Route
           path="/dashboard"
           element={
@@ -25,6 +24,7 @@ export default function App() {
             </PrivateRoute>
           }
         />
+
         <Route
           path="/place-order"
           element={
@@ -32,15 +32,16 @@ export default function App() {
               <PlaceOrder />
             </PrivateRoute>
           }
-          />
-          <Route
-            path="/my-orders"
-            element={
-              <PrivateRoute>
-                <MyOrders />
-              </PrivateRoute>
-           }
-           />
+        />
+
+        <Route
+          path="/my-orders"
+          element={
+            <PrivateRoute>
+              <MyOrders />
+            </PrivateRoute>
+          }
+        />
 
         {/* Admin side */}
         <Route path="/admin/login" element={<AdminLogin />} />

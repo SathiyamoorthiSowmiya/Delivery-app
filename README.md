@@ -10,6 +10,7 @@ This Delivery Management system is designed to manage food ordering and delivery
 ## 🚀 Live Demo
 
 - **Frontend deployed with Netlify**:
+
   https://fooddelivery-app-frontend.netlify.app/
    
 

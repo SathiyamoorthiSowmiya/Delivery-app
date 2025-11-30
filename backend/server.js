@@ -1,7 +1,6 @@
 // backend/server.js
 import express from "express";
 import dotenv from "dotenv";
-import cors from "cors";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
@@ -11,31 +10,47 @@ connectDB();
 
 const app = express();
 
-/* ✅ CORS SETUP (IMPORTANT FOR NETLIFY) */
-app.use(
-  cors({
-    origin: [
-      "http://localhost:5173", // local frontend (Vite)
-      "http://localhost:3000", // sometimes React dev
-      "https://animated-mandazi-42bacc.netlify.app", // ✅ your Netlify site
-    ],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
-);
+/* ✅ CORS HANDLER – ALLOW YOUR NETLIFY + LOCAL */
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:3000",
+  "https://flourishing-boba-5b4f49.netlify.app", // your current Netlify URL
+];
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+
+  if (allowedOrigins.includes(origin)) {
+    res.header("Access-Control-Allow-Origin", origin);
+  }
+
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+  res.header(
+    "Access-Control-Allow-Methods",
+    "GET, POST, PUT, PATCH, DELETE, OPTIONS"
+  );
+  res.header("Access-Control-Allow-Credentials", "true");
+
+  if (req.method === "OPTIONS") {
+    return res.sendStatus(200); // preflight OK
+  }
+
+  next();
+});
 
 app.use(express.json());
 
-/* 🔑 ROUTES */
+/* Routes with /api prefix */
 app.use("/api/auth", authRoutes);
 app.use("/api/orders", orderRoutes);
 
-/* ✅ TEST ROUTE */
 app.get("/", (req, res) => {
   res.send("✅ API is running...");
 });
 
-/* ✅ RENDER NEEDS process.env.PORT */
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {

@@ -9,9 +9,9 @@ This Delivery Management system is designed to manage food ordering and delivery
 
 ## 🚀 Live Demo
 
-- **Frontend deployed with Netlify**:
+- **Frontend deployed with Vercel**:
 
-  https://fooddelivery-app-frontend.netlify.app/
+  https://delivery-app-green-two.vercel.app/
    
 
 - **Backend deployed with Render.com**:  

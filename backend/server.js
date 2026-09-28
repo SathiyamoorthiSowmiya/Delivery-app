@@ -14,7 +14,8 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://flourishing-boba-5b4f49.netlify.app", // your current Netlify URL
+  "https://flourishing-boba-5b4f49.netlify.app",
+  "https://delivery-app-green-two.vercel.app", // current Vercel frontend
 ];
 
 app.use((req, res, next) => {
